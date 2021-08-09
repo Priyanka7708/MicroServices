@@ -4,7 +4,7 @@ Both micro-services are registered in Consul ( HashiCorp )
 
 External micro-service is calling the internal one using Feign with service discovery  provided by Consul.
 
-External micro-service is exposing ReST endpoints:   
+External micro-service is exposing REST endpoints:   
 
   GET /message       
     returns all messages  
